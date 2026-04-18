@@ -27,3 +27,22 @@ Wir durften frei wählen zwischen klassischen statistischen Verfahren und modern
 - Erstellung neuer, aussagekräftiger Features
 - Training und Vergleich verschiedener Modelle
 - Evaluierung mit produktionsrelevanten Metriken (z. B. Mean Absolute Error in Tagen/Stunden, Vorhersagegenauigkeit innerhalb bestimmter Toleranzfenster)
+
+## 🚀 Wie man das Projekt startet
+
+```bash
+# 1. Repository klonen
+git clone https://github.com/hakanderbarbar/Hackathon_Liebherr_DataScience2025.git
+
+# 2. Ins Verzeichnis wechseln
+cd Hackathon_Liebherr_DataScience2025/rwu_hackatron_2025
+
+# 3. Virtuelle Umgebung erstellen & aktivieren (optional)
+python -m venv venv
+source venv/bin/activate    # Linux / macOS
+
+# 4. Abhängigkeiten installieren
+pip install -r requirements.txt
+
+# 5. Notebooks starten
+jupyter lab
